@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alarm Clock</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1 id = 'dt'></h1>
-    <section id="dtcontainer">
-    
-    <div id = "clock"></div>
+  <h1 id='dt'></h1>
+  <section id="dtcontainer">
+
+    <div id="clock"></div>
 
 
-          <select class = "form">
-            <option value="Hour" selected disabled hidden>Hour</option>
-          </select class = "form">
-          <select class = "form">
-            <option value="Minute" selected disabled hidden>Minute</option>
-          </select>
-          <select class = "form">
-            <option value="AM/PM" selected disabled hidden>AM/PM</option>
-          </select>
+    <form id="form">
+      <select>
+        <option value="hrs" selected hidden>Hour</option>
+      </select>
+
+      <select>
+        <option value="min" selected hidden>Minute</option>
+      </select>
+
+      <select>
+        <option value="AM/PM" selected hidden>AM/PM</option>
+      </select>
       <button>Clear Alarm</button>
-</section>
+    </form>
 
 
     <script src="main.js"></script>
 </body>
+
 </html>

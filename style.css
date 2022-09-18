@@ -1,27 +1,32 @@
 html {
     font-family: 'Share Tech Mono', monospace;
-    background-color:#01345B;
+    background-color: #01345B;
     margin: 0;
     padding: 0;
 }
+
 h1 {
     font-size: 125px;
     text-align: center;
     color: #FFCF43;
 }
+
 #dtcontainer {
     font-size: 75px;
-text-align: center;
-color: #FFCF43;
-background-color:#01345B;
-border: 2px solid #5CE0D8;
-border-radius: 10px;
-margin-right: 33%;
-margin-left: 33%;
+    text-align: center;
+    color: #FFCF43;
+    background-color: #01345B;
+    border: 2px solid #5CE0D8;
+    border-radius: 10px;
+    margin-right: 33%;
+    margin-left: 33%;
 }
-.form, button {
+
+.form,
+select,
+button {
     font-size: 25px;
-    background-color:#01345B;
+    background-color: #01345B;
     color: #FFCF43;
     border: 2px solid#5CE0D8;
     border-radius: 10px;
